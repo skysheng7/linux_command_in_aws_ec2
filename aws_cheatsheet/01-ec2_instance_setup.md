@@ -12,7 +12,7 @@
      - Docker image = lightweight, contains virtual environment to use a software or reproduce code
      - AMI = full virtual machine including OS and root filesystems
 
-6. Under **Instance Type**, select: `t2.medium`:
+6. Under **Instance Type**, select `t2.medium` for lecture/practice purposes, and select `t2.large` for your milestone:
 
     - This is the "hardware" setting of your virtual machine
 
