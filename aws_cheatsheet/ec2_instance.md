@@ -50,7 +50,8 @@
 
 12. click "launch instance"
 13. After launching, search for your EC2 instance under **Instances** to monitor its status.
-    - It might say “Running” before JupyterHub is fully set up — give it **15–20 minutes**.
+    - Check "Instance State", see if it's "running" or "stopped"
+    - If "stopped", click on "Instance ID", and click "Instance State" > "Start instance". You may need to wait for 15–20 minutes.
     - You can also check **System Logs** during setup.
 
 14. Click the **Connect** button on your instance page.
@@ -61,24 +62,29 @@
 
 ## 🧑‍💻 Logging into EC2 Instance as Admin/Host
 
-1. Open your **terminal**
+1. Open your **terminal** or **command prompts** in your local computer
 2. Use `cd` to move to the directory where your private key (`.pem`) is saved
 3. Run:
+    ```bash
+    chmod 400 <your-key.pem>
+    ```
+    e.g.:
     ```bash
     chmod 400 sky-mds.pem
     ```
 
     ### 🔐 Why use `chmod 400`?
 
-    - `chmod`: change file permissions
+    - `chmod`: change file permission mode, changes who can read, write and execute this file
     - First digit (4): read permission for the owner
-    - Second & third digits (0): no permissions for group or others
+    - Second (0): no permissions for others in the same group
+    - Third digits (0): no permissions for everyone else, the rest of the world
 
     ✅ Reasons to use `chmod 400`:
-    - **SSH security**: Required by OpenSSH to avoid “permissions too open” error
-    - **Protect against malware**: Restricts access to private key
-    - **Avoid accidental modification**
-    - **Safety on shared systems**
+    - **SSH security**: Many SSH clients (including OpenSSH) will refuse to use private key files with "insecure" permissions. Required by OpenSSH to avoid “permissions too open” error when trying to connect.
+    - **Protect against malware**: Restricts access to private key. If your computer gets infected with malware, more restrictive permissions can provide an extra layer of protection against automated scripts trying to access sensitive files.
+    - **Avoid accidental modification**: Avoid accidentally modifing or corrupting the key file, which would render it unusable
+    - **Safety on shared systems**: If you ever use your key on a system where others might have access (even temporarily), the permissions ensure they can't read or modify it.
 
 4. Connect using `ssh`:
 
