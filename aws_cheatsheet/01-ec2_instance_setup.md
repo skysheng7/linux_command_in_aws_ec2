@@ -7,6 +7,7 @@
 3. Click **“Launch an instance”**.
 4. Add a **name** (e.g., `sky-mds`).
 5. Under **Application and OS Images (Amazon Machine Image)**:
+   - Click on: **Ubuntu**
    - Choose: **Ubuntu Server 22.04 LTS (HVM), SSD Volume Type - ami-XXXXXXXXXXXXXXXXX, leaving 64-bit (x86)**
    - 🔍 **Note**: An Amazon Machine Image (AMI) is not a Docker image.  
      - Docker image = lightweight, contains virtual environment to use a software or reproduce code
@@ -36,7 +37,7 @@
     - Select **General purpose SSD (gp2)** as volume type to reduce costs
 
 11. Under **Advanced details**:
-    - Add the following code chunk into the **"User data - optional"** section.
+    - Click the toggle to expand, scroll to the bottom and add the following code chunk into the **"User data - optional"** section.
     - Replace `<admin-user-name>` with your **JupyterHub admin username** (e.g., `sky`).
     - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* the username for you to SSH login into your EC2 instance.
 
