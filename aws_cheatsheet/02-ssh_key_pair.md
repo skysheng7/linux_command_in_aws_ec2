@@ -41,7 +41,7 @@ Copy and save the printed public key.
 
 ⸻
 
-4. Troubleshooting: Private Key Permission Error
+## 4. Troubleshooting: Private Key Permission Error
 
 If you forget to change file permissions with `chmod 400`, you may see this error:
 
