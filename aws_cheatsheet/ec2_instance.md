@@ -38,7 +38,7 @@
 11. Under **Advanced details**:
     - Add the following code chunk into the **"User data - optional"** section.
     - Replace `<admin-user-name>` with your **JupyterHub admin username** (e.g., `sky`).
-    - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* your EC2 instance login.
+    - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* your the username for you to SSH login into your EC2 instance.
 
     Example:
     ```bash
@@ -51,7 +51,7 @@
 12. click "launch instance"
 13. After launching, search for your EC2 instance under **Instances** to monitor its status.
     - Check "Instance State", see if it's "running" or "stopped"
-    - If "stopped", click on "Instance ID", and click "Instance State" > "Start instance". You may need to wait for 15–20 minutes.
+    - If "stopped", click on the hyperlinked ID listed under "Instance ID", and click button "Instance State" > "Start instance". You may need to wait for 15–20 minutes.
     - You can also check **System Logs** during setup.
 
 14. Click the **Connect** button on your instance page.
@@ -79,6 +79,9 @@
     - First digit (4): read permission for the owner
     - Second (0): no permissions for others in the same group
     - Third digits (0): no permissions for everyone else, the rest of the world
+    - If any digit is (6) = 4+2 = read(4) + write(2) permission
+    - If any digit is (7) = 4+2+1 = read(4) + write(2) + execute(1) permission
+    - If any digit is (5) = 4+1 = read(4) + execute(1) permission
 
     ✅ Reasons to use `chmod 400`:
     - **SSH security**: Many SSH clients (including OpenSSH) will refuse to use private key files with "insecure" permissions. Required by OpenSSH to avoid “permissions too open” error when trying to connect.
@@ -98,6 +101,7 @@
 
     - `-i` = identity file (your private key)
     - Default username for Ubuntu AMI is `ubuntu`
+    - Where is **<ec2_hostname>**: click on the hyperlinked ID listed under "Instance ID", and then copy the address listed under **"Public IPv4 DNS"**
 
 5. To log out of the instance, type:
     ```bash
@@ -110,5 +114,5 @@
 
 - Typing `exit` **does not stop AWS from charging you**
 - You must click **“Stop Instance”** in the web interface to pause compute charges
-- Stopping preserves your storage (still incurs storage cost)
-- Clicking **“Terminate Instance”** deletes the instance permanently — no further charges
+- Stopping preserves your data storage (storage still incurs storage cost)
+- Clicking **“Terminate Instance”** deletes the instance permanently including data storage — no further charges
