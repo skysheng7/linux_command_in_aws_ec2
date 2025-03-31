@@ -1,5 +1,8 @@
 # DSCI 525 Tutorial 1: Linux Command Line
 
+## Author
+Sky (Kehan) Sheng, MDS TA for DSCI 525
+
 ## Overview
 This repository contains materials for the Linux command line tutorial session held on April 1, 2025, as part of the DSCI 525 course (web and cloud computing). The tutorial covers fundamental Linux commands, file system navigation, and practical exercises using Amazon Web Services (AWS) EC2 instances.
 
