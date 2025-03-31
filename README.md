@@ -2,6 +2,8 @@
 
 Sky (Kehan) Sheng, MDS TA for DSCI 525
 
+![Ollie at the terminal](images/ollie_begin.png)
+
 ## Overview
 This repository contains materials for the Linux command line tutorial session held on April 1, 2025, as part of the DSCI 525 course (web and cloud computing). The tutorial covers fundamental Linux commands, file system navigation, and practical exercises using Amazon Web Services (AWS) EC2 instances. This repository also includes AWS cheatsheet on how to set up EC2 instances, the Littlest Jupyter Hub, adding users and other commonly used operations.
 
@@ -25,7 +27,7 @@ She's built her own folder system, crafted clever Bash scripts, and was about to
 
 But something went wrong.
 
-A clown — a mysterious entity known only as **`ubuntu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her riverbank workstation.
+A clown — a mysterious entity known only as **`Umbu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her riverbank workstation.
 
 Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore order to her filesystem.
 
@@ -36,7 +38,7 @@ Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore o
 Using only **Linux commands**, you will:
 
 - Navigate through suspicious directories,
-- Identify suspicious files planted by `ubuntu`,
+- Identify suspicious files planted by **Umbu**,
 - And **unlock the dungeon** to free her.
 
 ---
