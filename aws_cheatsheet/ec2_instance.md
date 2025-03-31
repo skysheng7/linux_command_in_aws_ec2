@@ -2,28 +2,29 @@
 
 ## 🚀 Launching the Instance
 
-1. Click the green-lit **"Start Lab"** button on Canvas to access AWS.
+1. Launch AWS lab, and start the lab on Canvas. Click the green-lit **AWS** button on Canvas, and you will be redirected to AWS web interface.
 2. Search for **“EC2”** in the AWS Management Console.
 3. Click **“Launch an instance”**.
 4. Add a **name** (e.g., `sky-mds`).
 5. Under **Application and OS Images (Amazon Machine Image)**:
-   - Choose: **Ubuntu Server 22.04 LTS (HVM), SSD Volume Type**
-   - AMI ID: `ami-XXXXXXXXXXXXXXXXX`
-   - Leave **64-bit (x86)** selected.
-   - 🔍 **Note**: An AMI is not a Docker image.  
-     - Docker image = lightweight, code environment  
+   - Choose: **Ubuntu Server 22.04 LTS (HVM), SSD Volume Type - ami-XXXXXXXXXXXXXXXXX, leaving 64-bit (x86)**
+   - 🔍 **Note**: An Amazon Machine Image (AMI) is not a Docker image.  
+     - Docker image = lightweight, contains virtual environment to use a software or reproduce code
      - AMI = full virtual machine including OS and root filesystems
 
-6. Under **Instance Type**, select: `t2.medium`
+6. Under **Instance Type**, select: `t2.medium`:
+
+    - This is the "hardware" setting of your virtual machine
+
 7. Under **Key pair (login)**:
-   - If it's your first time: Click **“Create a new key pair”**, name it, and **download the `.pem` file**.
-   - Save the private key somewhere **secure**.
+   - If it's your first time setting up this cluster: Click **“Create a new key pair”**, name it, key pair type = RSA, private key file format = pem, and **download the `.pem` file**.
+   - Save the key-pair somewhere secure.
    - If setting up again: Choose the existing key pair you previously created.
 
 8. Under **Network Settings**:
-   - Select **default VPC** and a **subnet**.
+   - Select default Virtual Private Cloud (VPC) and subnet.
 
-9. Under **Network Settings** → **Security Group**:
+9. Under **Network Settings** → **Firwall (Security Groups)**:
    - Create or select a security group.
    - Ensure the following **rules** are checked:
      - ✅ Allow SSH traffic from Anywhere
@@ -31,27 +32,28 @@
      - ✅ Allow HTTP traffic from the internet
 
 10. Under **Configure storage**:
-    - Use root storage with **30 GB** (recommended)
-    - Select **General purpose SSD (gp2)** to reduce costs
+    - Use root as storage with **30 GB** (recommended)
+    - Select **General purpose SSD (gp2)** as volume type to reduce costs
 
 11. Under **Advanced details**:
-    - Add user data from the class setup link.
+    - Add the following code chunk into the **"User data - optional"** section.
     - Replace `<admin-user-name>` with your **JupyterHub admin username** (e.g., `sky`).
-    - ⚠️ **Note**: This username is for The Littlest JupyterHub — *not* your EC2 instance login.
+    - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* your EC2 instance login.
 
     Example:
     ```bash
     #!/bin/bash
     curl -L https://tljh.jupyter.org/bootstrap.py \
         | sudo python3 - \
-    --admin sky
+    --admin <admin-user-name>
     ```
 
-12. After launching, search for your EC2 instance under **Instances** to monitor its status.
+12. click "launch instance"
+13. After launching, search for your EC2 instance under **Instances** to monitor its status.
     - It might say “Running” before JupyterHub is fully set up — give it **15–20 minutes**.
     - You can also check **System Logs** during setup.
 
-13. Click the **Connect** button on your instance page.
+14. Click the **Connect** button on your instance page.
     - Choose the **SSH Client** tab
     - Follow the instructions to connect
 
