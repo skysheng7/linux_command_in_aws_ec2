@@ -1,6 +1,5 @@
 # DSCI 525 Tutorial 1: Linux Command Line
 
-## Author
 Sky (Kehan) Sheng, MDS TA for DSCI 525
 
 ## Overview
