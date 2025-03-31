@@ -38,7 +38,7 @@
 11. Under **Advanced details**:
     - Add the following code chunk into the **"User data - optional"** section.
     - Replace `<admin-user-name>` with your **JupyterHub admin username** (e.g., `sky`).
-    - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* your the username for you to SSH login into your EC2 instance.
+    - ⚠️ **Note**: This username is for The Littlest JupyterHub inside of the EC2 instance — *not* the username for you to SSH login into your EC2 instance.
 
     Example:
     ```bash
