@@ -12,6 +12,8 @@
 
 ## 2. Set File Permissions on Your Private Key
 
+Change directory to where you saved this new private key using `cd` (cd = change directory)
+
 Regardless of how the key was created, ensure it’s not publicly viewable by running (remember to replace `<your-key.pem>` with your key name):
 
 `chmod 400 <your-key.pem>`
