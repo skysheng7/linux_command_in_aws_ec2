@@ -16,6 +16,8 @@ These are used for secure communication via encryption & decryption:
 
 Public keys can be shared freely; private keys should be stored safely and securely.
 
+<img src="images/key_pair.png" alt="Ollie at the terminal" width="500"/>
+
 ---
 
 ## 3. AWS Lab Setup
