@@ -13,13 +13,11 @@ This repository contains materials for the Linux command line tutorial session h
 
 ### Meet Ollie the Otter
 
-Ollie is a curious little otter who dreams of becoming a **Data Scientist**. She lives peacefully by the riverbank, spending her evenings on her otter-sized laptop learning **Linux** so she can:
+Ollie is a curious little otter who dreams of becoming a **Data Scientist**. She lives peacefully by the ocean, spending her evenings on her otter-sized laptop learning **Linux** so she can:
 
 - Organize her **fish collection**,
-- Analyze **clam crunching patterns**,
+- Analyze **clam patterns**,
 - Clean up her **messy shell data**.
-
-She's built her own folder system, crafted clever Bash scripts, and was about to publish her first shellfish dataset...
 
 ---
 
@@ -27,9 +25,11 @@ She's built her own folder system, crafted clever Bash scripts, and was about to
 
 But something went wrong.
 
-A clown — a mysterious entity known only as **`Umbu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her riverbank workstation.
+A clown — a mysterious entity known only as **`Umbu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her workstation by the ocean.
 
 Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore order to her filesystem.
+
+Before Ollie was captured into the dungeon, she left one last message for us 🌊 **"Ocean knows it all..."**
 
 ---
 
@@ -37,6 +37,7 @@ Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore o
 
 Using only **Linux commands**, you will:
 
+- Find secrets in the **ocean**
 - Navigate through suspicious directories,
 - Identify suspicious files planted by **Umbu**,
 - And **unlock the dungeon** to free her.
