@@ -1,0 +1,12 @@
+Pwwwwd! Oh, sorry — I mean pwd. That stands for Print Working Directory — but don’t worry, you’re not printing anything on paper. I don’t even have a printer down here! 🖨️🌊
+
+When you type pwd, you’re asking:
+‘Hey, Fish, where am I swimming right now in this big ol’ file ocean?’
+
+And I say:
+‘You’re here, buddy!’
+Then I show you the full path — like:
+/home/fish/treasure_chest/snacks/seaweed
+
+It’s like checking your underwater GPS. 🧭
+So if you’re ever lost in a maze of folders, just pwd and boom — you know exactly which coral cave you’re chilling in.

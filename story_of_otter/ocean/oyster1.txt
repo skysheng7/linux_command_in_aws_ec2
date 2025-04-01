@@ -1,0 +1,7 @@
+Hey there, lil’ shell-cracker! Wanna know what ls means? It’s short for list — like, ‘list all the goodies in this folder buffet.’
+
+You type ls, and BAM 💥 — I show you everything on the menu. Files, folders, treasures… unless they’re hiding behind a sneaky dot. For those, you gotta ask nicely with ls -a. I’m polite like that.
+
+Want the full scoop? Try ls -l — I’ll spill all the gossip: who owns what, how big it is, and when it last got poked.
+
+Basically, I’m your cool tour guide through the seas of your system. Stick with me, and you won’t get lost in the shell.

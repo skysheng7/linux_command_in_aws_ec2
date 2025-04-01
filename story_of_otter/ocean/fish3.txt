@@ -1,0 +1,13 @@
+Okay so like, chown? That’s short for change owner — and it’s how you say,
+‘This file? Yeah, it’s mine now.’ 💅
+
+Let’s say you downloaded a cool new shell-script but it belongs to someone else — rude.
+You just do:
+sudo chown me:me party_script.sh
+Boom 💥 — I’m the owner now, and the group is also set to me. Total takeover.
+
+You can also give it to someone else:
+sudo chown oyster:clam secrets.txt
+Now Oyster owns it, and Clam’s the group. Hope they don’t fight over it again 🙄.
+
+Just don’t forget the sudo — changing ownership is serious business in the reef.

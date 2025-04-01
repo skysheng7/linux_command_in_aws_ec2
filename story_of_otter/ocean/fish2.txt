@@ -1,0 +1,11 @@
+Yo yo, welcome to the file surf zone! 🏄‍♂️
+You typed ls -ltrh? That’s like the ultimate wave combo for listing files. Let me break it down:
+	•	l = long format — gives you the full stats: permissions, size, dates, all that jazz 🎷
+	•	t = time-sorted — newest stuff up top… or wait—
+	•	r = reverse — so oldest stuff comes first, like ancient seashells 🐚
+	•	h = human-readable sizes — none of that 384737 bytes nonsense. It’ll say things like 4K, 2M, etc. Easy on the eyes 👀
+
+So ls -ltrh says:
+‘Dude, show me all the files with details, sorted from oldest to newest, with chill, human-sized numbers.’ 🧘‍♂️
+
+It’s how I keep my reef organized and mellow.

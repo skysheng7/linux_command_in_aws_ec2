@@ -1,0 +1,12 @@
+Clamp down on chaos with chmod!
+It stands for change mode, and it lets you set who can read, write, or run a file.
+
+Think of it like a shell door:
+	•	r = read (peek inside)
+	•	w = write (make changes)
+	•	x = execute (open and run it)
+
+So chmod 755 myscript.sh means:
+Owner gets full control (7), others can peek & run (5).
+
+Nice, tight security — just how us clams like it!
