@@ -15,9 +15,9 @@ This repository contains materials for the Linux command line tutorial session h
 
 Ollie is a curious little otter who dreams of becoming a **Data Scientist**. She lives peacefully by the ocean, spending her evenings on her otter-sized laptop learning **Linux** so she can:
 
+- Learn from fishes, clams, oysters who know all about Linux command
 - Organize her **fish collection**,
-- Analyze **clam patterns**,
-- Clean up her **messy shell data**.
+- Clean up her **messy snack drawer**.
 
 ---
 
@@ -29,7 +29,7 @@ A clown — a mysterious entity known only as **`Umbu`** — showed up today in 
 
 Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore order to her filesystem.
 
-Before Ollie was captured into the dungeon, she left one last message for us 🌊 **"Ocean knows it all..."**
+Before Ollie was captured into the dungeon, she left one last message for us 🌊 **"Ocean knows it all..."** 🌊
 
 ---
 
