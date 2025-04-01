@@ -1,0 +1,7 @@
+Ah, the -p in mkdir — now that’s a graceful move. It stands for ‘parents’, and it lets you create a whole path of directories in one go.
+
+Say you want to build a deep reef like ocean/cave/treasure/pearls — but none of those folders exist yet?
+With mkdir -p, I’ll glide through the currents and make all of them for you, one after another.
+
+No splashes, no errors. Just smooth, deep directory diving. 🐋🌊
+Without -p, you’d get scolded for trying to make a baby folder before its parent was born. Tsk tsk.
