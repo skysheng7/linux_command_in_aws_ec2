@@ -122,6 +122,12 @@ ls -ltrh
 sudo mkdir -p /srv/data/my_shared_data_folder
 ```
 
+4. Change the permission mode so that anyone can access this folder
+
+```bash
+sudo chmod 777 /srv/data/my_shared_data_folder/
+```
+
 - **Why use -p?**
     - Without -p, the command fails ("No such file or directory" error) if parent folders (e.g., "/srv/data") don’t exist.
     - With -p, it will:
