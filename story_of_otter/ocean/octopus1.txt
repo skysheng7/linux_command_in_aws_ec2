@@ -1,0 +1,11 @@
+Ahh, cp! My favorite — the copy command. One file? Eight arms? Of course I’m good at duplicating things. 😌
+
+When you use cp, you’re making a copy of a file or folder, like grabbing a pearl and putting it in a new jar — original stays safe, new one goes wherever you want.
+
+Say you’ve got clam_jokes.txt and want a backup?
+You’d just cp clam_jokes.txt backup_jokes.txt.
+Boom — two identical files, one for fun, one for safety.
+
+Wanna copy into another folder? Easy:
+cp clam_jokes.txt jokes_archive/
+I could do it with my eyes closed… well, two of them. 🐙📄📄✨

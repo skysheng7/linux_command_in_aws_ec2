@@ -1,0 +1,15 @@
+Mv is the slow-and-steady way to move things from one place to another — like tucking your favorite shell into a new corner of the reef.
+
+But here’s the secret — it also renames things.
+Change a file’s name? Mv.
+Move it to a new folder? Mv.
+
+👉 mv fish_notes.txt ocean_wisdom.txt
+Now it’s the same file, just with a new name. No drama.
+
+Or maybe you want to tuck it safely into your archive folder:
+
+👉 mv ocean_wisdom.txt archive/
+Now it’s still ocean wisdom, just… relocated. Cozy and organized, like a proper shell collection.
+
+It’s calm, quiet, and efficient — just like me. No need to rush when you know exactly where you’re going. 🐢📦✨
