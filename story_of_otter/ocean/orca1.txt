@@ -1,0 +1,7 @@
+Rm? That’s the delete command — powerful stuff. With it, you can remove files like they never existed. Poof. Gone. Just say the word.
+
+Now rm -r? That’s recursive — it dives into folders and deletes everything inside, like a full-blown orca breach through your file reef. Whole directories vanish. No mercy.
+
+And rm -f? That one’s the brute — force. It doesn’t ask questions, doesn’t show warnings. Just deletes, even if the file’s being a little stubborn.
+
+Use them together — rm -rf — and, well… let’s just say it’s the kind of power you wield carefully. Even I shiver a bit. 🐋💥

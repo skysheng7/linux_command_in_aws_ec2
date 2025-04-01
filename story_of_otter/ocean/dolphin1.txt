@@ -1,0 +1,8 @@
+Vi!Now that’s a power move, my friend — sleek, fast, and not for the faint of flipper.
+
+It opens a file in this magical mode-based editor. At first, you’re just swimming around — that’s normal mode. Want to actually write? Hit i for insert mode. Want out? Escape key!
+
+To save and leave, type :wq — that’s write and quit.
+Messed up and just wanna bail? :q! — a dramatic dolphin exit.
+
+It’s not easy at first, but once you learn the dance, you’ll fly through files like I fly through waves. Click-click, splash, done! 🐬🌊✨

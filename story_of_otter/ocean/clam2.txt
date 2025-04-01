@@ -1,0 +1,8 @@
+Nano? Oh, that’s my kind of tool — simple, quiet, and gets the job done. It’s a basic text editor you can open right in the terminal.
+
+You just type your thoughts, notes, fish poems — whatever.
+
+When you’re ready to save, press Ctrl + O.
+Done writing? Press Ctrl + X to exit.
+
+No fuss, no barnacles. Just you and your file. Click click.

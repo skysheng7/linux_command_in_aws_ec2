@@ -1,0 +1,7 @@
+Cat is like opening a letter and reading it aloud to the reef — it shows you everything inside a file, line by line, in one smooth wave. Elegant. Direct. A little dramatic, if you ask me.
+
+And touch? Oh, darling, touch is like giving a gentle tap on a rock to say, ‘You exist now.’
+It creates an empty file if there isn’t one — or if the file already exists, it just updates its timestamp, like a soft reminder:
+‘Hey, I was here again.’
+
+One reveals the story, the other quietly starts it.

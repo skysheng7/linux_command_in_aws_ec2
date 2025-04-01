@@ -1,0 +1,9 @@
+Head gives you the opening lines of a file — the polite intro, the appetizer, if you will.
+Tail? Ah, that’s the juicy ending, the final act, the last wave before the tide rolls out.
+
+By default, they show 10 lines — but if you’re picky, you can ask for more or less.
+
+Want to watch the file grow in real time, like waves lapping at your shell?
+Tail can follow along — loyal, quiet, and ever-watchful.
+
+Honestly, these two are my favorite gossip tools.

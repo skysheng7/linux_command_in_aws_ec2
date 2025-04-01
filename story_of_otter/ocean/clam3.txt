@@ -1,0 +1,6 @@
+Mkdir? That’s how you make a nice, cozy new shell — I mean, folder. Just plop it there and fill it with whatever shiny things you like.
+
+And rmdir? Well… that’s how you politely remove an empty folder.
+If it’s got stuff inside? Nope. Not happening. Gotta clean it out first — I don’t do messy goodbyes.
+
+Simple. Safe. Just like a clam’s life should be. 🐚📦
