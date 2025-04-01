@@ -25,7 +25,7 @@ Ollie is a curious little otter who dreams of becoming a **Data Scientist**. She
 
 But something went wrong.
 
-A clown — a mysterious entity known only as **`Umbu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her workstation by the ocean.
+A clown — a mysterious entity known only as **`Umbu`** — showed up today in Ollie's home, kidnapped her and **locked her in a hidden dungeon directory** and taken over her home by the ocean.
 
 Now it's up to **you**, the command-line hero, to **rescue Ollie** and restore order to her filesystem.
 
