@@ -9,12 +9,10 @@ SSH allows you to securely access a remote computer.
 
 ## 2. Public Key & Private Key
 
-These are used for secure communication via encryption:
+These are used for secure communication via encryption & decryption:
 
-- 🔐 **Public key** is like a **lock** you can share with others freely.
-- 🔑 **Private key** is the **key** that can open that lock — keep it secure and secret!
-- A **message encrypted with a public key** can **only be decrypted with the corresponding private key**.
-- A **message encrypted with a private key** cannot be decrypted by the public key alone.
+- 🔐 **Public key** is like a **lock** you can share with others freely. Public key can encrypt a message.
+- 🔑 **Private key** is the **key** that can open that lock — keep it secure and secret! Private key can decrypt the message encrypted by the public key.
 
 Public keys can be shared freely; private keys should be stored safely and securely.
 
