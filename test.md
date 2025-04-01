@@ -1,10 +1,4 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
-# 👩‍🏫Tutorial Agenda: EC2, SSH, and Key-Pair Basics
+# 👩‍🏫Tutorial Agenda
 
 ------------------------------------------------------------------------
 ## 0. Github repository share
@@ -108,6 +102,7 @@ ssh -i <path_to_private_key.pem> <username>@<ec2_hostname>
 
 After logging into EC2 instance
 
+### 🏠 Understanding Your Location
 
 **📍Q: What does `~` mean?**
 
@@ -157,6 +152,7 @@ drwxrwxr-x 2 ubuntu ubuntu 4096 Apr  1 04:07 ocean
 -   `ls -ltr`: list all directories in long format + sort by time in reversed order (oldest first), 
 -   `ls -ltrh`: list all directories in long format + sort by time in reversed order,in a human readable way
 
+### 🌊 Enter the Ocean
 
 Now let's take a look at the ocean, what's in the ocean? 
 -   `cd ocean`
@@ -165,6 +161,9 @@ Now let's take a look at the ocean, what's in the ocean?
 **📍Q: How many fish do we have in total?**
 
 -   `ls -a` to see all files including hidden links, there is a hidden fish!
+
+
+### 🧠 Peeking into a Fish’s Mind
 
 **📍Q: What does the fish know? How to take a peek into fish's mind (aka fish_cd.txt's file)**
 
@@ -176,6 +175,9 @@ Now let's take a look at the ocean, what's in the ocean?
 -   `cat fish_cd.txt` prints out the entire file
 
 Every fish, and shell fish in the ocean knows some secrets about Linux command lines, you can go through the files on your own. 
+
+
+### ✍️ Editing Fish Files
 
 Seems like fish_cd swam too far (too many "swim..." in the txt file), **📍Q: how can we edit the fish_cd's text file?** 
 
@@ -198,6 +200,8 @@ Now that we've learnt important Linux command line from the fish, clams and oyst
 -   `cd ..` going back to parent folder
 -   `ls -l` again to see who owns the dungen? Wow! Ubuntu is `Umbu`'s real name!!
 
+### 🛡️ Give Ollie Her Power Back
+
 The dungeon is magic, it only listens to its owner, well, the owner on paper. To save Ollie, we need to secretly make Ollie to be the new owner of the dungeon, and dungeon will no longer listen to Ubuntu the clown!
 
 -   `sudo adduser ollie --disabled-password` to add ollie as a new user to our system
@@ -208,10 +212,14 @@ The dungeon is magic, it only listens to its owner, well, the owner on paper. To
     -   `chown` = change ownership
     -   `ollie:ollie` = `owner:group`
 
+### 🏃‍♀️ Rescue Ollie!
+
 Now let's break into the dungeon and send Ollie back home!
 
 -   `sudo mv clown_dungeon/ollie.txt home_of_ollie/`
     -   `mv` = move
+
+### 🧨 Destroy the Dungeon
 
 Let's destroy the dungeon!
 
@@ -220,6 +228,8 @@ Let's destroy the dungeon!
     -   `-r` = recursively go through the folder
     -   `-f` = force
 
+
+### 🍽️ Feed Ollie!
 Ollie is starving because she had no food in the dungeon, let's catch some fish for Ollie as dinner!
 
 -   `mkdir -p home_of_ollie/dinner/`
