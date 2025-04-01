@@ -16,7 +16,7 @@ Change directory to where you saved this new private key using `cd` (cd = change
 
 Regardless of how the key was created, ensure it’s not publicly viewable by running (remember to replace `<your-key.pem>` with your key name):
 
-`chmod 400 <your-key.pem>`
+`chmod 400 <your-key.pem>` (chmod = change permission mode)
 
 This restricts file access so only you can read the private key.
 
