@@ -1,4 +1,4 @@
-Mv is the slow-and-steady way to move things from one place to another — like tucking your favorite shell into a new corner of the reef.
+🐢💬 Mv is the slow-and-steady way to move things from one place to another — like tucking your favorite shell into a new corner of the reef.
 
 But here’s the secret — it also renames things.
 Change a file’s name? Mv.
@@ -13,3 +13,4 @@ Or maybe you want to tuck it safely into your archive folder:
 Now it’s still ocean wisdom, just… relocated. Cozy and organized, like a proper shell collection.
 
 It’s calm, quiet, and efficient — just like me. No need to rush when you know exactly where you’re going. 🐢📦✨
+Oh — and if you use a *, it means “everything that matches,” like saying, ‘Grab all the shells that start with fish_’ in one slow, smooth sweep.
