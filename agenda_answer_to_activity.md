@@ -75,6 +75,8 @@ We’ll go over this using [ssh key pair cheatsheet](aws_cheatsheet/02-ssh_key_p
 
 See [key pair comics](aws_cheatsheet/00-background_knowledge.md)
 
+<img src="../images/key_pairs.png" alt="key_pairs" width="500"/>
+
 ------------------------------------------------------------------------
 
 ## 6. SSH into EC2 instance
