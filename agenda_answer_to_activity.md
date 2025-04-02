@@ -167,10 +167,8 @@ Now let's take a look at the ocean, what's in the ocean?
 
 **📍Q: How many fish do we have in total?**
 
--   `find . -name "*fish*"` to find all the files whose name contains `fish`
--   `find . -name "*fish* -a"` to find all the files whose name contains `fish`, including hidden ones!
+-   `find . -name "*fish*"` to find all the files whose name contains `fish`including hidden ones!
 -   `ls -a` can also see all files including hidden links, there is a hidden fish!
-
 
 
 ### 7.3 🧠 Peeking into a Fish’s Mind
