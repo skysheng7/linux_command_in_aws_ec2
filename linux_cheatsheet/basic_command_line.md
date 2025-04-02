@@ -16,6 +16,9 @@
 4. `cd folder_name` — Change directory  
     - `cd ..` — Go to parent directory  
     - `cd .` — Stay in current directory  
+5. `find` — find files
+    - e.g., `find . -name "*fish*"`: find all the files whose name contains `fish`
+
 
 ---
 
