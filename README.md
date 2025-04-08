@@ -1,6 +1,6 @@
 # DSCI 525 Tutorial 1: Linux Command Line
 
-Sky (Kehan) Sheng, MDS TA for DSCI 525
+Sky (Kehan) Sheng, Master of Data Science (MDS) TA for DSCI 525
 
 <img src="images/ollie_begin.png" alt="Ollie at the terminal" width="500"/>
 
