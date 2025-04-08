@@ -1,4 +1,4 @@
-# DSCI 525 Tutorial 1: Linux Command Line in Amazon Web Services (AWS) Elastic Compute Cloud (EC2) instances
+# DSCI 525 Tutorial 1: Linux Command Line in Amazon Web Services (AWS) Elastic Compute Cloud (EC2) Instances
 
 Sky (Kehan) Sheng, Master of Data Science (MDS) TA for DSCI 525
 
