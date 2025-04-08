@@ -54,6 +54,15 @@ Let the mission begin.
 
 ---
 
+## 📁 Repository Structure
+- **`agenda_answer_to_activity.md`:** Agenda and activites (with answer key) planned for this 1-hour tutorial.
+- **`aws_cheatsheet/`:** Step-by-step guides for working with AWS EC2 instances, key pairs, user management, and JupyterHub.
+- **`linux_cheatsheet/`:** Basic Linux command line instructions.
+- **`images/`:** Visuals used throughout the guides to support understanding.
+- **`story_of_otter/`:** A playful, story-based section featuring Ollie the otter, designed to teach Linux commands through an engaging narrative. Includes thematic subfolders like the `ocean`, `clown_dungeon` and `home_of_ollie`.
+
+This structure supports both technical instruction and creative exploration to make learning more accessible and fun.
+
 ## License
 This materials is licensed under the [Creative Commons](LICENSE).
 
